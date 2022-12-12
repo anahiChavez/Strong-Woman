@@ -24,8 +24,7 @@ https://bit.ly/strongWomen-app
 ![Captura de pantalla 2022-12-11 213552](https://user-images.githubusercontent.com/119650235/206969109-29c449eb-0b43-41ec-8173-d8194c4374a1.png)
 ![Captura de pantalla 2022-12-11 213804](https://user-images.githubusercontent.com/119650235/206969114-9126530e-e58d-4b3d-8060-42b4210e87b8.png)
 
-#Prediction
-
+# Prediction
 **If it´s Benign**
 ![Captura de pantalla 2022-12-11 214001](https://user-images.githubusercontent.com/119650235/206969193-d75aa04c-1f59-4f4f-a705-9d0497ce5450.png)
 
