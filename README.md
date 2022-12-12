@@ -26,8 +26,8 @@ https://bit.ly/strongWomen-app
 
 #Prediction
 
-** If it´s Benign **
+**If it´s Benign**
 ![Captura de pantalla 2022-12-11 214001](https://user-images.githubusercontent.com/119650235/206969193-d75aa04c-1f59-4f4f-a705-9d0497ce5450.png)
 
-** If it's Malignant **
+**If it's Malignant**
 ![Captura de pantalla 2022-12-11 214455](https://user-images.githubusercontent.com/119650235/206969250-89aa18fb-3e2b-468d-8b6a-1c8f34bef2dd.png)
