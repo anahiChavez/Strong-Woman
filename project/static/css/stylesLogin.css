@@ -1,0 +1,63 @@
+.total {
+    background: #ff0c85e6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff8bc3, #ff0c85e6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff8bc3, #ff0c85e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+
+
+.mt-size0 {
+    margin-top: 165px;
+}
+
+.mt-size {
+    margin-top: 160px;
+}
+
+.mt-size2 {
+    margin-top: 35px;
+}
+
+.base {
+    margin-left: 80px;
+}
+
+.mt-2 {
+    margin-bottom: -7.5px;
+}
+
+.logo {
+    width: 105px;
+    margin: 0;
+    position: absolute;
+    /*padding-left: 85px;*/
+    top: 0;
+    left: 94px;
+}
+h2 {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FB5A99;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+.button:hover {
+    border: 2px solid #FB5A99;
+    color: #FB5A99;
+    background: none;
+}
+
+.card-body a {
+    text-decoration: none;
+}

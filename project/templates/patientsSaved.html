@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesPredictor.css' ) }}">
+    <link rel="icon" type="image/jpg" href="{{ url_for('static', filename='./images/Favicon.png' ) }}" />
+    <title>Strong Women - Patients</title>
+</head>
+
+<body id="options" class="options">
+    <a href="/"><img class="logo" src="{{ url_for('static', filename='images/logo.png')}}" alt=""></a>
+    
+    <div class="row">
+        <h3>Patient repository</h3>
+        <div class="patients-table">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>Telephone</th>
+                    <th>Email</th>
+                    <th>Diagnosis</th>
+                    <th>Date</th>
+                </tr>
+                {% for row in patients %}
+                <tr>
+                    <td>{{row.0}}</td>
+                    <td>
+                        {{row.1}}
+                    </td>
+                    <td>
+                        {{row.2}}
+                    </td>
+                    <td>
+                        {{row.3}}
+                    </td>
+                    <td>
+                        {{row.4}}
+                    </td>
+                    <td>
+                        {{row.5}}
+                    </td>
+                    <td>
+                        {{row.6}}
+                    </td>
+                    <td>
+                        {{row.7}}
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

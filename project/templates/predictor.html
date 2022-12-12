@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- Form template made by CodingNepal -->
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strong Women - Predictor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesPredictor.css' ) }}">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="icon" type="image/jpg" href="{{ url_for('static', filename='./images/Favicon.png' ) }}"/>
+</head>
+
+<body>
+  <a href="/"><img class="logo" src="{{ url_for('static', filename='images/logo.png')}}" alt="" ></a>
+  <div class="container">
+    <header>Breast Cancer Predictor</header>
+    <div class="progress-bar">
+      <div class="step">
+        <p>Step 1</p>
+        <div class="bullet">
+          <span>1</span>
+        </div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <p>Step 2</p>
+        <div class="bullet">
+          <span>2</span>
+        </div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <p>Step 3</p>
+        <div class="bullet">
+          <span>3</span>
+        </div>
+        <div class="check fas fa-check"></div>
+      </div>
+    </div>
+
+    <div class="form-outer">
+      <form action="{{url_for('predict')}}" method="post">
+        <div class="page slide-page">
+          <div class="title">Fill in patient data </div>
+          <div class="column">
+            <div class="field">
+              <div class="label">Full Name</div>
+              <input name="fullname" class="input" type="text" placeholder="Full name" required='required' />
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <div class="label">Age</div>
+              <input name="age" class="input" type="text" placeholder="Age" required='required'/>
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <div class="label">Address</div>
+              <input name="address" class="input" type="text" placeholder="Address" required='required'/>
+              <div class="cut"></div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <div class="label">Telephone</div>
+              <input name="telephone" class="input" type="text" placeholder="Telephone" required='required'/>
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <div class="label">Email</div>
+              <input name="emailPacient" class="input" type="email" placeholder="example@email.com" required='required'/>
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <button class="firstNext next">Next</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="page">
+          <div class="title">Fill in the characteristics of the tumor</div>
+          <div class="column">
+            <div class="field">
+              <div class="label">Radius</div>
+              <input name="radius" class="input" type="text" placeholder="Radius" required='required' />
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <div class="label">Texture</div>
+              <input name="texture" class="input" type="text" placeholder="Texture" required='required'/>
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <div class="label">Perimeter</div>
+              <input name="perimeter" class="input" type="text" placeholder="Perimeter" required='required'/>
+              <div class="cut"></div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <div class="label">Area</div>
+              <input name="area" class="input" type="text" placeholder="Area" required='required'/>
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <div class="label">Smoothness</div>
+              <input name="smoothness" class="input" type="text" placeholder="Smoothness" required='required'/>
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <button class="prev-1 prev">Previous</button>
+              <button class="next-1 next">Next</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="page">
+          <div class="column">
+            <div class="field">
+              <div class="label">Compactness</div>
+              <input name="compactness" class="input" type="text" placeholder="Compactness" required='required' />
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <div class="label">Concavity</div>
+              <input name="concavity" class="input" type="text" placeholder="Concavity" required='required'/>
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <div class="label">Concave Points</div>
+              <input name="concave_points" class="input" type="text" placeholder="Concave Points" required='required'/>
+              <div class="cut"></div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <div class="label">Symmetry</div>
+              <input name="symmetry" class="input" type="text" placeholder="Symmetry" required='required'/>
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <div class="label">Fractal Dimension</div>
+              <input name="fractal_dimension" class="input" type="text" placeholder="Fractal Dimension" required='required'/>
+              <div class="cut"></div>
+            </div>
+            <div class="field">
+              <button class="prev-2 prev">Previous</button>
+              <button class="button_predict" type="submit" name="button">Diagnosis</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='./js/script2.js')}}"></script>
+
+</body>
+
+</html>

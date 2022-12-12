@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesPredictor.css' ) }}">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>   
+    <link rel="icon" type="image/jpg" href="{{ url_for('static', filename='./images/Favicon.png' ) }}"/>
+    <title>Strong Women - Option</title>
+</head>
+<body>
+    <a href="/"><img class="logo" src="{{ url_for('static', filename='images/logo.png')}}" alt="" ></a>
+    <div class="container2">
+        <h2>Choose your option</h2>
+        <div class="column">
+           <a href="/predictor"> <i class="fa fa-solid fa-user-plus"></i><br>Add Patient</a>
+        </div>
+        <div class="column">
+           <a href="/patients"> <i class="fa fa-solid fa-folder-open"></i><br>View Patients</a>
+        </div>
+
+    </div>
+        
+</body>
+</html>

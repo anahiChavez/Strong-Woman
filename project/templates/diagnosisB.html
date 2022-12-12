@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesPredictor.css' ) }}">
+    <title>Strong Women - Prediction</title>
+    <link rel="icon" type="image/jpg" href="{{ url_for('static', filename='./images/Favicon.png' ) }}"/>
+</head>
+<body id="diagnosisBanner" class="diagnosisBanner" >
+    <a href="/"><img class="logo" src="{{ url_for('static', filename='images/logo.png')}}" alt="" ></a>
+    <div class="fullPrediction">
+        <div class="textPrediction">
+            <b>{{prediction_text}}</b>
+        </div>
+        <div class="plotPrediction">
+            <img src= {{plot_url}} alt="Chart cannot be displayed">
+        </div>
+    </div>
+        
+</body>
+</html>
