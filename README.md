@@ -1,2 +1,2 @@
 # Strong-Woman
-My last app https://bit.ly/strongWoman-app
+My last app https://bit.ly/strongWomen-app
