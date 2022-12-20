@@ -8,7 +8,7 @@ https://bit.ly/strongWomen-app
 # Index
 ![Captura de pantalla 2022-12-11 212727](https://user-images.githubusercontent.com/119650235/206968492-80ada1ae-7861-405d-bae6-275584d26a18.png)
 ![Captura de pantalla 2022-12-11 212831](https://user-images.githubusercontent.com/119650235/206968543-489e242c-8276-4d51-9bba-8d56b97d1334.png)
-![Captura de pantalla 2022-12-11 213015](https://user-images.githubusercontent.com/119650235/206968610-466b6e21-95b7-485b-8337-cd04854ac77f.png)
+
 ![Captura de pantalla 2022-12-11 213015](https://user-images.githubusercontent.com/119650235/206968643-11cd00ab-8dc3-4a14-bcf4-b92b6c5b9aca.png)
 ![Captura de pantalla 2022-12-11 213139](https://user-images.githubusercontent.com/119650235/206968663-9b115563-ad53-429f-baba-3c2b4d77c725.png)
 ![Captura de pantalla 2022-12-11 213303](https://user-images.githubusercontent.com/119650235/206968868-6f690f42-9b32-490e-98bd-077298d4ba8f.png)
